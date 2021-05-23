@@ -1,0 +1,17 @@
+{
+    "name": "maxime/quete_composer",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "Maxime Guichard",
+            "email": "maxime.guichard45@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0",
+        "ehime/hello-world": "^1.0.5"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
